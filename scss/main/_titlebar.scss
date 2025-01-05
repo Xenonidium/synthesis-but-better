@@ -7,16 +7,16 @@
     }
 
     &::before {
-        content: var(--title-text, "Synthesis v1.8");
+        content: var(--title-text, "nuh uh");
         font-family: var(--font-display);
         font-weight: 500;
         color: var(--text-muted);
         text-shadow: 0 0 5px rgb($color-foreground);
         position: absolute;
-        top: -4px;
+        top: 0;
         left: 0;
         height: 18px;
-        padding: 4px;
+        padding: 5px;
         line-height: 23px;
         font-size: 14px;
         letter-spacing: 0;
